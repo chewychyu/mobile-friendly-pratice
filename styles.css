@@ -1,0 +1,37 @@
+body {
+    background-color: pink;
+   
+  }
+  
+ h1{
+    background-color: black;
+    color: aliceblue;
+ } 
+  
+  @media screen and (min-width: 700px) {
+    body {
+      background-color: lightgreen;
+    }
+    h1{
+
+        background-color: darkgoldenrod;
+    }
+    .desc:before {
+      content: "This browser window is at least 700px wide!";
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    body {
+      background-color: rgb(128, 128, 228);
+    }
+    h1{
+
+        background-color: grey;
+    }
+    .desc:before {
+      content: "This browser window is at least 1200px wide!";
+    }
+  }
+
+ 
